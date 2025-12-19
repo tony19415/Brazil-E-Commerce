@@ -1,0 +1,8 @@
+pandas
+dbt-core
+matplotlib
+numpy
+scikit-learn
+seaborn
+streamlit
+gradio

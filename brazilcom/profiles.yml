@@ -1,0 +1,48 @@
+brazilcom:
+  outputs:
+    dev:
+      dbname: brazilcom
+      host: localhost
+      pass: Mz4T_PqW2nU
+      port: 5432
+      schema: public
+      threads: 1
+      type: postgres
+      user: postgres
+  target: dev
+company-name:
+  outputs:
+    dev:
+      connect_timeout: 10
+      dbname: brazilcom
+      host: localhost
+      keepalives_idle: 0
+      password: Mz4T_PqW2nU
+      port: 5432
+      retries: 1
+      role:
+      - optional
+      - set the role dbt assumes when executing queries
+      schema: public
+      search_path:
+      - optional
+      - override the default postgres search_path
+      sslcert:
+      - optional
+      - set the sslcert to control the certifcate file location
+      sslkey:
+      - optional
+      - set the sslkey to control the location of the private key
+      sslmode:
+      - optional
+      - set the sslmode used to connect to the database
+      sslrootcert:
+      - optional
+      - set the sslrootcert config value to a new file path in order to customize
+        the file location that contain root certificates
+      threads:
+      - optional
+      - 1 or more
+      type: postgres
+      user: postgres
+  target: dev

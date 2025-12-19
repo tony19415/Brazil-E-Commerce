@@ -1,0 +1,20 @@
+
+version: 2
+
+models:
+  - name: dim_customers
+    description: "Customer data"
+    columns:
+      - name: total_spend
+        description: "Total amount spent by customer"
+      - name: order_count
+        description: "Total number of orders made"
+      - name: days_since_last_order
+        description: "Days since last order"
+      - name: average_order_value
+        description: "Average transaction amount"
+      - name: return_rate
+        description: "d"
+        data_tests:
+          - unique
+          - not_null

@@ -1,0 +1,100 @@
+version: 2
+
+models:
+  - name: olist_orders
+    description: "Orders"
+    columns:
+      - name: order_id
+        description: "unique identifier of the order"
+      - name: customer_id
+        description: "Key to customer dataset"
+      - name: order_status
+        description: "Reference to the order status (delivered, shipped)"
+        tests:
+          - check_status
+      - name: order_purchase_timestamp
+        description: "Purchase timestamp"
+        tests:
+          - not_null
+      - name: order_approved_at
+        description: "Payment approval stamp"
+        tests:
+          - not_null
+      - name: order_deliverd_carrier_date
+        description: "Order posting timestamp, when it was handled to logistic partner"
+      - name: order_delivered_customer_date
+        description: "Actual order delivery date to customer"
+      - name: order_estimated_delivered_date
+        description: "Estimated delivery date informed to customer on purchase"
+        tests:
+          - not_null
+
+  - name: olist_order_payments
+    description: "Payments"
+    columns:
+      - name: order_id
+        description: "unique identifier of the order"
+      - name: payment_type
+        description: "Method of payment"
+      - name: payment_installments
+        description: "Number of installments chosen by customer for payment"
+      - name: payment_value
+        description: "Transaction value"
+        tests:
+          - unique
+          - not_null
+
+  - name: olist_customers
+    description: "Customers"
+    columns:
+      - name: customer_id
+        description: "Key to orders dataset"
+      - name: customer_unique_id
+        description: "Unique identifier of customer"
+      - name: customer_zipcode
+        description: "First five digits of customer zip code"
+      - name: customer_city
+        description: "Customer city"
+      - name: customer_state
+        description: "Customer state"
+        tests:
+          - unique
+          - not_null
+
+  - name: olist_order_items
+    description: "Order items"
+    columns:
+      - name: order_id
+        description: "unique identifier of the order"
+      - name: order_item_id
+        description: "Sequential number identifying number of items included in same order"
+      - name: product_id
+        description: "Unique product identifier"
+      - name: seller_id
+        description: "Seller unique identifier"
+      - name: shipping_limit_date
+        description: "Seller shipping limit date for handling order over to logistics partner"
+      - name: price
+        description: "Item price"
+      - name: freight_value
+        description: "Item freight value item"
+        tests:
+          - unique
+          - not_null
+
+  - name: olist_value
+    description: "Order values created from products and items tables"
+    columns:
+      - name: product_id
+        description: "Unique product identifier"
+      - name: product_category_name
+        description: "Sequential number identifying number of items included in same order"
+      - name: order_id
+        description: "unique identifier of the order"
+      - name: price
+        description: "Price per item"
+      - name: freight_value
+        description: "Item freight value item"
+        tests:
+          - unique
+          - not_null

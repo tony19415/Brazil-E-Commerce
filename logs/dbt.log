@@ -1,0 +1,136 @@
+[0m13:08:18.965954 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023465AF2510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023465244890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002346873BEF0>]}
+
+
+============================== 13:08:18.972952 | 4f3e797c-ada2-4c03-86cf-5b95f5454542 ==============================
+[0m13:08:18.972952 [info ] [MainThread]: Running with dbt=1.10.15
+[0m13:08:18.972952 [debug] [MainThread]: running dbt with arguments {'profiles_dir': 'C:\\Users\\user\\.dbt', 'no_print': 'None', 'cache_selected_only': 'False', 'use_colors': 'True', 'target_path': 'None', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'indirect_selection': 'eager', 'version_check': 'True', 'use_experimental_parser': 'False', 'quiet': 'False', 'introspect': 'True', 'empty': 'None', 'log_cache_events': 'False', 'debug': 'False', 'log_format': 'default', 'invocation_command': 'dbt init', 'printer_width': '80', 'write_json': 'True'}
+[0m13:08:18.986953 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\user\.dbt
+[0m13:08:43.199831 [debug] [MainThread]: Starter project path: C:\Users\user\Desktop\Personal\Data Science Github\Brazil-E-Commerce\venv\Lib\site-packages\dbt\include\starter_project
+[0m13:08:43.228840 [info ] [MainThread]: 
+Your new dbt project "brazilcom" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m13:08:43.229929 [info ] [MainThread]: Setting up your profile.
+[0m13:08:43.230927 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No adapters available. Learn how to install an adapter by going to https://docs.getdbt.com/docs/connect-adapters#install-using-the-cli
+[0m13:08:43.231928 [debug] [MainThread]: Command `dbt init` failed at 13:08:43.231928 after 24.42 seconds
+[0m13:08:43.231928 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023468DAA390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023468E43620>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023468B216D0>]}
+[0m13:08:43.232930 [debug] [MainThread]: Flushing usage events
+[0m13:08:44.316097 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:13:20.079178 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018810A0B140>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001880AEE5850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001881109C0B0>]}
+
+
+============================== 14:13:20.084180 | be5ce2ff-cd6d-4dab-95e8-7748fde10d24 ==============================
+[0m14:13:20.084180 [info ] [MainThread]: Running with dbt=1.10.15
+[0m14:13:20.085210 [debug] [MainThread]: running dbt with arguments {'log_format': 'default', 'target_path': 'None', 'printer_width': '80', 'use_colors': 'True', 'profiles_dir': 'C:\\Users\\user\\Desktop\\Personal\\Data Science Github\\Brazil-E-Commerce', 'warn_error': 'None', 'log_path': 'logs', 'partial_parse': 'True', 'indirect_selection': 'eager', 'send_anonymous_usage_stats': 'True', 'fail_fast': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'version_check': 'True', 'use_experimental_parser': 'False', 'introspect': 'True', 'quiet': 'False', 'empty': 'None', 'log_cache_events': 'False', 'debug': 'False', 'no_print': 'None', 'invocation_command': 'dbt init brazilcom', 'cache_selected_only': 'False', 'write_json': 'True'}
+[0m14:13:20.100772 [debug] [MainThread]: Starter project path: C:\Users\user\Desktop\Personal\Data Science Github\Brazil-E-Commerce\venv\Lib\site-packages\dbt\include\starter_project
+[0m14:13:20.122745 [info ] [MainThread]: 
+Your new dbt project "brazilcom" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m14:13:20.123746 [info ] [MainThread]: Setting up your profile.
+[0m14:16:30.504375 [info ] [MainThread]: Profile brazilcom written to C:\Users\user\Desktop\Personal\Data Science Github\Brazil-E-Commerce\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m14:16:30.506373 [debug] [MainThread]: Command `dbt init` succeeded at 14:16:30.505372 after 190.60 seconds
+[0m14:16:30.506373 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000188112A5040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001880E1C4A70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018810E0DB50>]}
+[0m14:16:30.507375 [debug] [MainThread]: Flushing usage events
+[0m14:16:31.581638 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:18:43.770693 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022BB915AF60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022BB6AA4A70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022BB8C363C0>]}
+
+
+============================== 14:18:43.775693 | 11589619-c889-47b2-9208-54b3cd536fc2 ==============================
+[0m14:18:43.775693 [info ] [MainThread]: Running with dbt=1.10.15
+[0m14:18:43.776693 [debug] [MainThread]: running dbt with arguments {'no_print': 'None', 'profiles_dir': 'C:\\Users\\user\\Desktop\\Personal\\Data Science Github\\Brazil-E-Commerce', 'cache_selected_only': 'False', 'write_json': 'True', 'use_colors': 'True', 'warn_error': 'None', 'log_path': 'logs', 'partial_parse': 'True', 'indirect_selection': 'eager', 'send_anonymous_usage_stats': 'True', 'fail_fast': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'use_experimental_parser': 'False', 'version_check': 'True', 'introspect': 'True', 'quiet': 'False', 'empty': 'None', 'log_cache_events': 'False', 'debug': 'False', 'log_format': 'default', 'invocation_command': 'dbt debug', 'printer_width': '80', 'target_path': 'None'}
+[0m14:18:43.794112 [info ] [MainThread]: dbt version: 1.10.15
+[0m14:18:43.795115 [info ] [MainThread]: python version: 3.12.4
+[0m14:18:43.795115 [info ] [MainThread]: python path: C:\Users\user\Desktop\Personal\Data Science Github\Brazil-E-Commerce\venv\Scripts\python.exe
+[0m14:18:43.796112 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m14:18:43.849233 [info ] [MainThread]: Using profiles dir at C:\Users\user\Desktop\Personal\Data Science Github\Brazil-E-Commerce
+[0m14:18:43.850236 [info ] [MainThread]: Using profiles.yml file at C:\Users\user\Desktop\Personal\Data Science Github\Brazil-E-Commerce\profiles.yml
+[0m14:18:43.850236 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\user\Desktop\Personal\Data Science Github\Brazil-E-Commerce\dbt_project.yml
+[0m14:18:43.851235 [info ] [MainThread]: Configuration:
+[0m14:18:43.851235 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m14:18:43.852233 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m14:18:43.852233 [info ] [MainThread]: Required dependencies:
+[0m14:18:43.853235 [debug] [MainThread]: Executing "git --help"
+[0m14:18:43.885756 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m14:18:43.885756 [debug] [MainThread]: STDERR: "b''"
+[0m14:18:43.885756 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m14:18:43.886757 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m14:18:43.886757 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m14:18:43.887756 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "company-name", target "dev" invalid: ['optional', 'set the role dbt assumes when executing queries'] is not valid under any of the given schemas
+
+
+[0m14:18:43.887756 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\user\Desktop\Personal\Data Science Github\Brazil-E-Commerce\dbt_project.yml> not found
+
+[0m14:18:43.888756 [debug] [MainThread]: Command `dbt debug` failed at 14:18:43.888756 after 0.30 seconds
+[0m14:18:43.888756 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022BB9C9F9E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022BB9903D70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022BB9E13A40>]}
+[0m14:18:43.888756 [debug] [MainThread]: Flushing usage events
+[0m14:18:44.981189 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:27:49.214622 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EA4A2C10A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EA46FC6570>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EA4989A930>]}
+
+
+============================== 14:27:49.220620 | 9149a900-d77f-4136-a921-e5a79218ba8b ==============================
+[0m14:27:49.220620 [info ] [MainThread]: Running with dbt=1.10.15
+[0m14:27:49.220620 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'profiles_dir': 'C:\\Users\\user\\.dbt', 'no_print': 'None', 'write_json': 'True', 'use_colors': 'True', 'warn_error': 'None', 'indirect_selection': 'eager', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'log_path': 'logs', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'version_check': 'True', 'use_experimental_parser': 'False', 'quiet': 'False', 'introspect': 'True', 'empty': 'None', 'log_cache_events': 'False', 'debug': 'False', 'log_format': 'default', 'invocation_command': 'dbt debug', 'cache_selected_only': 'False', 'target_path': 'None'}
+[0m14:27:49.235163 [info ] [MainThread]: dbt version: 1.10.15
+[0m14:27:49.235163 [info ] [MainThread]: python version: 3.12.4
+[0m14:27:49.236162 [info ] [MainThread]: python path: C:\Users\user\Desktop\Personal\Data Science Github\Brazil-E-Commerce\venv\Scripts\python.exe
+[0m14:27:49.236162 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m14:27:49.236162 [info ] [MainThread]: Using profiles dir at C:\Users\user\.dbt
+[0m14:27:49.237162 [info ] [MainThread]: Using profiles.yml file at C:\Users\user\.dbt\profiles.yml
+[0m14:27:49.237162 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\user\Desktop\Personal\Data Science Github\Brazil-E-Commerce\dbt_project.yml
+[0m14:27:49.237162 [info ] [MainThread]: Configuration:
+[0m14:27:49.237162 [info ] [MainThread]:   profiles.yml file [[31mERROR not found[0m]
+[0m14:27:49.238162 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m14:27:49.238162 [info ] [MainThread]: Required dependencies:
+[0m14:27:49.238162 [debug] [MainThread]: Executing "git --help"
+[0m14:27:49.271892 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m14:27:49.271892 [debug] [MainThread]: STDERR: "b''"
+[0m14:27:49.272891 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m14:27:49.272891 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m14:27:49.273889 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m14:27:49.273889 [info ] [MainThread]: dbt looked for a profiles.yml file in C:\Users\user\.dbt\profiles.yml, but did
+not find one. For more information on configuring your profile, consult the
+documentation:
+
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m14:27:49.273889 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\user\Desktop\Personal\Data Science Github\Brazil-E-Commerce\dbt_project.yml> not found
+
+[0m14:27:49.274893 [debug] [MainThread]: Command `dbt debug` failed at 14:27:49.274893 after 0.22 seconds
+[0m14:27:49.274893 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EA4B31FB30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EA49C5F050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EA49C5F980>]}
+[0m14:27:49.275889 [debug] [MainThread]: Flushing usage events
+[0m14:27:50.281064 [debug] [MainThread]: An error was encountered while trying to flush usage events
