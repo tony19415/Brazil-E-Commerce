@@ -1,6 +1,14 @@
 # Brazil-E-Commerce
 Brazil Olist E Commerce data pipeline creation and data analysis
 
+[Source of data](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+
+## Goal of project
+- Showcase data engineering, data analysis, and small bit of data science skillset
+- Data modelling, data quality handling and more
+- Utilize ML for advanced customer segmentation/customer churning data
+- Develop PowerBI dashboard for business users
+
 ## Progress:
 - Mart model of customer transactional data
 - dbt for data transformation of ETL and running quality tests
@@ -10,7 +18,8 @@ Brazil Olist E Commerce data pipeline creation and data analysis
 - KPI development with python in Jupyter notebook
 
 ## To do:
-K means clustering for customer segmentation
+- K means clustering for customer segmentation
+- Churn data ML
 
 ## Utilized
 <img src="https://github.com/user-attachments/assets/30aa4c37-5ea1-4e75-8eea-9acbc5f6a544" alt="Airflow" height="30">
