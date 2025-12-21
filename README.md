@@ -15,11 +15,12 @@ Brazil Olist E Commerce data pipeline creation and data analysis
 - Storing data in PostgreSQL database
 - Python for data cleaning
 - EDA using pandas
-- KPI development with python in Jupyter notebook
+- KPI development with python in Jupyter notebook (YoY and MoM revenue, customer retention)
 
 ## To do:
 - K means clustering for customer segmentation
 - Churn data ML
+- PowerBI Dashboard creation
 
 ## Utilized
 <img src="https://github.com/user-attachments/assets/30aa4c37-5ea1-4e75-8eea-9acbc5f6a544" alt="Airflow" height="30">
