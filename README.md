@@ -11,16 +11,18 @@ Brazil Olist E Commerce data pipeline creation and data analysis
 
 ## Progress:
 - Mart model of customer transactional data
-- dbt for data transformation of ETL and running quality tests
+- dbt for data transformation of ETL and running data quality assurance tests ex. Ensure Transaction ID are unique [], Revenue is never null [], accepted values of order status [x]
 - Storing data in PostgreSQL database
 - Python for data cleaning
 - EDA using pandas
-- KPI development with python in Jupyter notebook (YoY and MoM revenue, customer retention)
+- KPI development with python in Jupyter notebook (1:Delivery Time vs Review score, 2a:YoY and 2b:MoM revenue, 3:cohort retention)
 
 ## To do:
-- K means clustering for customer segmentation
+- K-Means clustering and RFM Analysis for customer segmentation
 - Churn data ML
-- PowerBI Dashboard creation
+- PowerBI/Streamlit Dashboard creation *Show DAX/ETL capabilities within PowerBI as well here
+- CI/CD Version control on Github -> Creating a clear README.md explaining business problem then using Git branch ex. feature/customer-clustering & merge with Pull Requests
+- Dependency management with Docker
 
 ## Utilized
 <img src="https://github.com/user-attachments/assets/30aa4c37-5ea1-4e75-8eea-9acbc5f6a544" alt="Airflow" height="30">
