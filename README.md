@@ -1,5 +1,5 @@
 # Brazil-E-Commerce
-Brazil Olist E Commerce data pipeline creation and data analysis
+Brazil Olist E Commerce data pipeline creation to transform raw e-commerce data into a "Customer Value Dashboard," utilizing clustering (ML) to identify high-value customer segments
 
 [Source of data](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 
