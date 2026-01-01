@@ -7,20 +7,22 @@ Brazil Olist E Commerce data pipeline creation and data analysis
 - Showcase data engineering, data analysis, and small bit of data science skillset
 - Data modelling, data quality handling and more
 - Utilize ML for advanced customer segmentation/customer churning data
-- Develop PowerBI dashboard for business users
+- Develop PowerBI dashboard for business users using customer transaction data
 
-## Progress:
+## In progress:
+- PowerBI/Streamlit Dashboard creation *Show DAX/ETL capabilities within PowerBI as well here
+
+## Completed:
 - Mart model of customer transactional data
-- dbt for data transformation of ETL and running data quality assurance tests ex. Ensure Transaction ID are unique [], Revenue is never null [], accepted values of order status [x]
+- dbt for data transformation of ETL and running data quality assurance tests ex. Ensure Transaction ID are unique [x], Revenue is never null [x], accepted values of order status [x]
 - Storing data in PostgreSQL database
 - Python for data cleaning
 - EDA using pandas
 - KPI development with python in Jupyter notebook (1:Delivery Time vs Review score, 2a:YoY and 2b:MoM revenue, 3:cohort retention)
+- K-Means clustering and RFM Analysis for customer segmentation
 
 ## To do:
-- K-Means clustering and RFM Analysis for customer segmentation
 - Churn data ML
-- PowerBI/Streamlit Dashboard creation *Show DAX/ETL capabilities within PowerBI as well here
 - CI/CD Version control on Github -> Creating a clear README.md explaining business problem then using Git branch ex. feature/customer-clustering & merge with Pull Requests
 - Dependency management with Docker
 

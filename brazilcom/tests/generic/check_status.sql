@@ -2,6 +2,6 @@
 
 select *
 from {{ model }}
-where {{ column_name }} IN ('delivered', 'invoiced', 'shipped', 'processing', 'unavailable')
+where {{ column_name }} IN ('delivered', 'invoiced', 'shipped', 'processing', 'unavailable', 'canceled')
 
 {% endtest %}

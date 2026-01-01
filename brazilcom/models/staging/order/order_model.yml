@@ -6,6 +6,9 @@ models:
     columns:
       - name: order_id
         description: "unique identifier of the order"
+        tests:
+          - not_null
+          - unique
       - name: customer_id
         description: "Key to customer dataset"
       - name: order_status
@@ -34,6 +37,9 @@ models:
     columns:
       - name: order_id
         description: "unique identifier of the order"
+        tests:
+          - unique
+          - not_null
       - name: payment_type
         description: "Method of payment"
       - name: payment_installments
@@ -49,6 +55,9 @@ models:
     columns:
       - name: customer_id
         description: "Key to orders dataset"
+        tests:
+          - unique
+          - not_null
       - name: customer_unique_id
         description: "Unique identifier of customer"
       - name: customer_zipcode
@@ -59,13 +68,15 @@ models:
         description: "Customer state"
         tests:
           - unique
-          - not_null
 
   - name: olist_order_items
     description: "Order items"
     columns:
       - name: order_id
         description: "unique identifier of the order"
+        tests:
+          - unique
+          - not_null
       - name: order_item_id
         description: "Sequential number identifying number of items included in same order"
       - name: product_id
